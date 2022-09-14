@@ -43,8 +43,13 @@
 }
 
 .ResumePrint {
-
   width: 100%;
   height: 4rem;
   font-size: 20px;
+}
+
+.contactFormBg {
+  border: 3px solid rgb(13, 83, 206);
+  box-shadow: rgba(193, 195, 210, 0.88) 0px 0px 15px 10px;
+  background: rgba(255, 255, 255, 0.68);
 }

@@ -17,7 +17,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import HomeIcon from "@mui/icons-material/Home";
 import DoubleArrowIcon from "@mui/icons-material/DoubleArrow";
 
-import "./Header.scss";
+import "./Header.css";
 
 export default () => {
   const [showBasic, setShowBasic] = useState(false);

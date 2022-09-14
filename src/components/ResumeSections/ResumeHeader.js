@@ -10,22 +10,25 @@ import CustomHr from "./CustomHr";
 
 export default () => {
   return (
-    <div className="Rheader d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-around align-items-lg-center px-2">
-      <div className="d-flex flex-column align-items-center mt-4 mt-lg-0 flex-lg-row justify-content-lg-start align-items-lg-center h-100  w-25">
+    <div className="Rheader d-flex flex-column justify-content-center align-items-center flex-lg-row justify-content-lg-around align-items-lg-center px-2 px-lg-4">
+      <div className="d-flex flex-column align-items-center mt-4 mt-lg-0 flex-lg-row justify-content-lg-start align-items-lg-center h-100  w-100">
         <img className="RheaderPic" src={ProfilePic} alt="ProfilePicture" />
       </div>
-      <div className=" mt-4 mt-lg-0 h-100 d-flex flex-column justify-content-center justify-content-center align-items-center text-white text-center">
-        <h1>Richar Marshall</h1>
+      <div className="  mt-4 mt-lg-0 h-100 d-flex flex-column justify-content-center  align-items-center text-white text-center w-100">
+        <h2>
+          <strong>Richar Marshall</strong>
+        </h2>
         <CustomHr color="white" size="65%" />
-        <h3>Data Scientist and Software Developer</h3>
+        <h5>
+          <strong>Data Scientist and Software Developer</strong>
+        </h5>
       </div>
-      <div className="  w-100 h-100 d-flex flex-column justify-content-lg-around text-white text-center text-lg-end w-25 py-3 justify-content-center">
+      <div className="h-100 d-flex flex-column justify-content-lg-around text-white text-center text-lg-end w-25 py-3 justify-content-center w-100">
         <div className=" d-flex flex-column  align-items-center  align-items-lg-end">
           <h4>
             <strong>Contact</strong>
             <CustomHr color="white" size="6rem" />
           </h4>
-
         </div>
         <h6>
           rrodr644@fiu.edu <EmailIcon />
@@ -46,10 +49,8 @@ export default () => {
             target="_blank"
             href="https://www.linkedin.com/in/richar-marshall-665559127/"
           >
-            LinkedIn  <strong>(Click Me)</strong>  <LinkedInIcon />
+            LinkedIn <strong>(Click Me)</strong> <LinkedInIcon />
           </a>
-
-
         </h6>
         <h6>
           <a
@@ -59,8 +60,6 @@ export default () => {
           >
             GitHub <strong>(Click Me)</strong> <GitHubIcon />
           </a>
-
-
         </h6>
       </div>
     </div>
