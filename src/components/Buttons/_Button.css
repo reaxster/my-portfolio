@@ -1,0 +1,20 @@
+.customBTN {
+  width: 20%;
+  height: 50px;
+  box-shadow: rgba(193, 195, 210, 0.9) 0px 0px 10px 3px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.customBTN:hover {
+  width: 21%;
+  height: 55px;
+  background-color: #0d45a2;
+  border: rgba(27, 49, 148, 0.89) 1px solid;
+  color: white;
+  box-shadow: rgba(193, 195, 210, 0.9) 0px 0px 10px 5px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

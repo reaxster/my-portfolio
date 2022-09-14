@@ -1,0 +1,38 @@
+
+.menuHeader  {
+  color: rgb(255, 255, 255) !important;
+  font-size: 15px;
+}
+
+.menuHeader:hover {
+  font-size: 17px;
+}
+
+.menuHeader2  {
+  color: rgb(255, 255, 255) !important;
+  font-size: 15px!important;
+  font-weight: bold!important;
+
+}
+
+.menuHeader2:hover {
+  font-size: 17px!important;
+}
+
+.textDiag {
+  color: white!important;
+}
+
+
+.MDBNavbar {
+  background: #0d53ce !important;
+  box-shadow: rgba(193, 195, 210, 0.64) 0px 0px 10px 5px;
+  padding: 1rem 0 1rem 0;
+
+}
+
+@media only screen and (max-width: 992px){
+  #fadeshow1 {
+    display: none;
+  }
+}

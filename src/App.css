@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Oxygen", sans-serif;
+}
+
+.test {
+  border: 1px solid blue;
+}
+
+.mainWrapper {
+  min-height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+
+}
