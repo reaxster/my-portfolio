@@ -4,7 +4,7 @@ const resumeEducation = [
     program: "M.S Data Science",
     location: "Miami, FL",
     from: "Fall 2021",
-    to: "Spring 2023",
+    to: "Summer 2023",
     desc: "A Master of Science in the Area of Data Science, heavily focused on Machine Learning, Artificial Intelligence, Computing Analytics, and Forecasting",
   },
   {

@@ -24,13 +24,13 @@ const App = () => {
         <Routes>
           <Route exact path="/" element={<Main />} />
           <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/software-developer" element={<ComingSoon />} />
-          <Route exact path="/software-dev" element={<ComingSoon />} />
+          <Route exact path="/software-developer" element={<SoftwareDev />} />
+          <Route exact path="/software-dev" element={<SoftwareDev />} />
           <Route exact path="/resume" element={<Resume />} />
-          <Route exact path="/data-science" element={<ComingSoon />} />
+          <Route exact path="/data-science" element={<DataScience />} />
           <Route
             exact
-            path="/data-science/stock-market-predicton"
+            path="/data-science/stock-market-prediction"
             element={<StockMarketPrediction />}
           />
         </Routes>
