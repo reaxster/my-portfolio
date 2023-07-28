@@ -10,6 +10,7 @@ import DataScience from "./pages/DataScience";
 import Footer from "./components/footer/Footer";
 import ComingSoon from "./components/ComingSoon/ComingSoon";
 import React from "react";
+import StockMarketPrediction from "./pages/StockMarketPrediction";
 
 const App = () => {
   return (
@@ -27,6 +28,11 @@ const App = () => {
           <Route exact path="/software-dev" element={<ComingSoon />} />
           <Route exact path="/resume" element={<Resume />} />
           <Route exact path="/data-science" element={<ComingSoon />} />
+          <Route
+            exact
+            path="/data-science/stock-market-predicton"
+            element={<StockMarketPrediction />}
+          />
         </Routes>
       </div>
       <Footer />
