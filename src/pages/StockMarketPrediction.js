@@ -6,7 +6,7 @@ const StockMarketPrediction = () => {
       className="bg-light w-100 container py-4 px-5 my-5"
       style={{
         border: "#1e81b0 5px solid",
-        boxShadow: "0px  0px 5px 0px #000",
+        boxShadow: "0px  0px 5px 0px #4B4E53",
       }}
     >
       <h1>
